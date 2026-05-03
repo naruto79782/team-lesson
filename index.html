@@ -142,11 +142,11 @@ textarea{min-height:90px;resize:vertical}
 <header>
   <div class="logo" onclick="gp('home',document.querySelector('.tab'))">Teamlesson <span class="logo-dot">:</span> 노베이스를 위한 수능수학</div>
   <nav>
-    <button class="tab active" onclick="gp('home',this)">홈</button>
-    <button class="tab" onclick="gp('teachers',this)">선생님 소개</button>
-    <button class="tab" onclick="gp('books',this)">교재</button>
+    <button class="tab active" onclick="gp('home',this)">Home</button>
+    <button class="tab" onclick="gp('teachers',this)">About Us</button>
+    <button class="tab" onclick="gp('books',this)">자료실</button>
     <button class="tab" onclick="gp('notices',this)">공지사항</button>
-    <button class="tab" onclick="gp('homework',this)">숙제</button>
+    <button class="tab" onclick="gp('homework',this)">Homework</button>
     <button class="tab" onclick="gp('questions',this)">질문 게시판</button>
     <button class="tab" onclick="gp('contact',this)">문의</button>
   </nav>
@@ -176,7 +176,7 @@ textarea{min-height:90px;resize:vertical}
 </div>
 
 <div class="page" id="page-teachers">
-  <div class="sec-hdr"><div class="sec-title">선생님 소개</div></div>
+  <div class="sec-hdr"><div class="sec-title">About Us</div></div>
   <div class="tgrid">
     <div class="tcard">
       <div class="tname">김준식 T</div>
@@ -207,7 +207,7 @@ textarea{min-height:90px;resize:vertical}
 
 <div class="page" id="page-books">
   <div class="sec-hdr">
-    <div class="sec-title">자체 제작 교재</div>
+    <div class="sec-title">자료</div>
     <button class="btn btn-p btn-sm" id="book-btn" style="display:none" onclick="showAddBook()">+ 교재 추가</button>
   </div>
   <div id="book-list"><div class="loading">불러오는 중...</div></div>
@@ -223,7 +223,7 @@ textarea{min-height:90px;resize:vertical}
 
 <div class="page" id="page-homework">
   <div class="sec-hdr">
-    <div class="sec-title">숙제 게시판</div>
+    <div class="sec-title">Homework</div>
     <button class="btn btn-p btn-sm" id="hbtn" style="display:none" onclick="showWriteHW()">+ 숙제 등록</button>
   </div>
   <div id="hwlist"><div class="loading">불러오는 중...</div></div>
